@@ -1,4 +1,4 @@
-fetch("./data.json")
+fetch("https://ojasbirla.github.io/Corona_Cases_Plotter_By_Ojas/data.json")
     .then(response => response.json())
     .then(rsp => {
 
